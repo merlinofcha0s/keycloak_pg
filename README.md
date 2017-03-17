@@ -1,6 +1,6 @@
 # Keycloak PostgreSQL
 
-Extends the Keycloak docker image to use PostgreSQL
+Extends the Keycloak docker image to use PostgreSQL [jboss-dockerfiles/keycloak] (https://github.com/jboss-dockerfiles/keycloak/tree/master/server-postgres)
 
 Little addons, the server is configured to redirect to port 443.
 
