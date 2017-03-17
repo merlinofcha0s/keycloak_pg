@@ -2,6 +2,10 @@
 
 Extends the Keycloak docker image to use PostgreSQL
 
+Little addons, the server is configured to redirect to port 443.
+
+You just have to put an nginx or apache in front of keycloak to have https
+
 ## Usage
 
 ### Start a PostgreSQL instance
