@@ -2,7 +2,7 @@
 
 Extends the Keycloak docker image to use PostgreSQL [(jboss-dockerfiles/keycloak)](https://github.com/jboss-dockerfiles/keycloak/tree/master/server-postgres)
 
-Little addons, the server is configured to redirect to port 443.
+Little addons, the server is configured in proxy mode on port 443.
 
 You just have to put an nginx or apache in front of keycloak to have https
 
